@@ -130,6 +130,13 @@
             "bacnet_unit_type": "UNITS_PERCENT"
         },
         {
+            "id": "button_event",
+            "name": "Button Status",
+            "access_mode": "R",
+            "data_type": "OBJECT",
+            "value_type": "STRUCT"
+        },
+        {
             "id": "button_event.status",
             "name": "Button Status",
             "value": "3",
