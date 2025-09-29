@@ -525,6 +525,17 @@
             "bacnet_unit_type": "UNITS_SECONDS"
         },
         {
+            "id": "valve_1_task",
+            "name": "Valve 1 Task",
+            "value": "",
+            "unit": "",
+            "access_mode": "RW",
+            "data_type": "OBJECT",
+            "value_type": "STRUCT",
+            "bacnet_unit_type_id": 95,
+            "bacnet_unit_type": "UNITS_NO_UNITS"
+        },
+        {
             "id": "valve_1_task.time_rule_enable",
             "name": "Valve 1 Task (Time Rule Enable)",
             "value": "",
@@ -613,6 +624,17 @@
             "bacnet_unit_type_id": 95,
             "bacnet_unit_type": "UNITS_NO_UNITS",
             "reference": ["valve_1_task.time_rule_enable", "valve_1_task.pulse_rule_enable", "valve_1_task.valve_status", "valve_1_task.duration"]
+        },
+        {
+            "id": "valve_2_task",
+            "name": "Valve 2 Task",
+            "value": "",
+            "unit": "",
+            "access_mode": "RW",
+            "data_type": "OBJECT",
+            "value_type": "STRUCT",
+            "bacnet_unit_type_id": 95,
+            "bacnet_unit_type": "UNITS_NO_UNITS"
         },
         {
             "id": "valve_2_task.time_rule_enable",
