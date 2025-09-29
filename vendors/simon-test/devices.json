@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "devices": [
+        {
+            "id": "test-device-1",
+            "name": "Test Device 1",
+            "description": "",
+            "catalog": "",
+            "device_profile": ["ClassA-OTAA"],
+            "codec": "vendors/simon-test/test-device-1/codec.json",
+            "decoder_script": "vendors/simon-test/test-device-1/decoder.js",
+            "encoder_script": "vendors/simon-test/test-device-1/encoder.js"
+        }
+    ]
+}

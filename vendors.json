@@ -8,6 +8,15 @@
             "description": "Make Sensing Matter",
             "oui": "24e124",
             "devices": "vendors/milesight-iot/devices.json"
+        },
+        {
+            "id": "simon-test",
+            "name": "Simon Test",
+            "logo": "",
+            "website": "",
+            "description": "",
+            "oui": "24e122",
+            "devices": "vendors/simon-test/devices.json"
         }
     ]
 }
